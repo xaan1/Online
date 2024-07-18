@@ -5,8 +5,10 @@ import { getAnalytics } from "@/actions/getAnalytics";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import React from "react";
-import DataCard from "./_componets/DataCard.tsx";
-import Chart from "./_componets/Chart.tsx";
+import DataCard from "./_componets/DataCard";
+import Xaan from "./_componets/Xaan";
+
+
 
 
 
@@ -25,8 +27,11 @@ const AnalyticsPage = async () => {
         <DataCard label="Total Sales" value={totalSales} />
         <DataCard label="Total revenue" value={totalRevanue} />
       </div>
+
+<Xaan  data={data}/>
+   
  
- <Chart  data={data}/>
+
     </div>
   );
 };

@@ -11,7 +11,7 @@ type Props = {
   }[];
 };
 
-const Chart: React.FC<Props> = ({ data }) => {
+const Xaan =({ data } : Props) => {
   return (
     <Card>
       <ResponsiveContainer width="100%" height={350}>
@@ -37,4 +37,4 @@ const Chart: React.FC<Props> = ({ data }) => {
   );
 };
 
-export default Chart;
+export default Xaan
