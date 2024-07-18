@@ -1,0 +1,8 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+
+
+  /* @import "`@uploadthing/react/style.css" */
+  /* @import "~@upl/react/style.css"; */
